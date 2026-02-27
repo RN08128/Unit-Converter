@@ -1,2 +1,73 @@
 @charset "UTF-8";
 
+body {
+    font-family: "Playpen Sans Hebrew";
+}
+
+section>div {
+    padding: 10px;
+    border: 3px black;
+    border-style: solid;
+    border-radius: 5px;
+    max-width: fit-content;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.options {
+    text-decoration: none;
+    color: black;
+    padding: 0 4px;
+    font-size: 20px;
+}
+
+.options:hover {
+    color: rgb(0, 110, 255);
+}
+
+div#menu>h1 {
+    padding: 0;
+    margin: 10px auto;
+    text-align: center;
+}
+
+div#menu>h1>a {
+    text-decoration: none;
+    color: black;
+}
+
+content > p{
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.inputs {
+    margin-left: 0px;
+    width: 200px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.inputselect {
+    margin-left: 0px;
+    width: 210px;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+content > button{
+    font-family: "Playpen Sans Hebrew";
+    font-weight: 500;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 18px;
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
