@@ -19,9 +19,29 @@
             </h1>
             <a href="length.html" class="options">Length</a>
             <a href="weight.html" class="options">Weight</a>
-            <a href="temperature.html" class="options" style="color: rgb(0, 110, 255); text-decoration: underline;">Temperature</a>
+            <a href="temperature.html" class="options"
+                style="color: rgb(0, 110, 255); text-decoration: underline;">Temperature</a>
+            <content>
+                <p>Enter the temperature to convert:</p>
+                <input type="text" class="inputs">
+                <p>Unit to Convert from:</p>
+                <select name="temperatures" id="" class="inputselect">
+                    <option value="Celsius">Celsius (C°)</option>
+                    <option value="Fahrenheit">Fahrenheit (F°)</option>
+                    <option value="Kelvin">Kelvin (K)</option>
+                </select>
+                <p>Unit to Convert to:</p>
+                <select name="temperatures" id="" class="inputselect">
+                    <option value="Celsius">Celsius (C°)</option>
+                    <option value="Fahrenheit">Fahrenheit (F°)</option>
+                    <option value="Kelvin">Kelvin (K)</option>
+                </select>
+                <button type="submit">Convert</button>
+            </content>
         </div>
     </section>
 </body>
+
+<script src="index.js"></script>
 
 </html>

@@ -5,7 +5,7 @@ body {
 }
 
 section>div {
-    padding: 10px;
+    padding: 10px 13px 10px 6px;
     border: 3px black;
     border-style: solid;
     border-radius: 5px;
@@ -45,16 +45,14 @@ content > p{
 }
 
 .inputs {
-    margin-left: 0px;
-    width: 200px;
+    width: 100%;
     height: 18px;
     border: 2px solid;
     border-radius: 4px;
 }
 
 .inputselect {
-    margin-left: 0px;
-    width: 210px;
+    width: 103%;
     height: 25px;
     border: 2px solid;
     border-radius: 4px;
@@ -68,6 +66,10 @@ content > button{
     padding: 10px 18px;
     display: block;
     text-align: center;
-    margin-bottom: 8px;
-    margin-top: 8px;
+    margin: 8px auto;
+}
+
+content > button:hover{
+    background: rgb(0, 110, 255);
+    color: white;
 }
